@@ -1,0 +1,13 @@
+   0 mkdir -p /home/user/start/1.txt
+   1 cd /home/user/start/1.txt
+   2 nano 1.txt
+   3 date
+   4 date | head >> 1.txt
+   5 mkdir -p /opt/task/start.txt
+   6 mv /home/user/start/1.txt /opt/task/start.txt
+   7 ls -la
+   8 ls -la | tail -4
+   9 ls -la | tail -4 >> start.txt
+  10 cd /opt/task/start.txt
+  11 ls -la
+  12 history >> history_30.11.txt
